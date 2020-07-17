@@ -1,0 +1,15 @@
+html {
+    touch-action: manipulation;
+}
+body {
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+}
+@media screen and (max-width: 480px) {
+    .gun {
+        height: 100vw;
+        transform: rotate(90deg) translateY(-100%);
+        transform-origin: top left;
+    }
+}
